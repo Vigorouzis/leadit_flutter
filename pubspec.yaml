@@ -1,0 +1,31 @@
+name: leadit_flutter
+description: A new Flutter application.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  equatable: ^1.2.6
+  flutter_bloc: ^6.1.2
+  hive: ^1.4.4+1
+  hive_flutter: ^0.3.1
+
+  http: ^0.12.2
+  url_launcher: ^5.7.10
+  webview_flutter: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.11.1
+  hive_generator: ^0.8.2
+
+flutter:
+  uses-material-design: true
